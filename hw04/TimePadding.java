@@ -16,7 +16,9 @@ public class TimePadding {//defining class
     System.out.print("Enter number of seconds that have passed as a an integer: ");//prompt for number of seconds
     int seconds = myScanner.nextInt();//scanner reads new integer
     
-    double hours = seconds/3600;
+    double secondsPerHour=3600;
+            
+    double hours = seconds/secondsPerHour;
     double hoursRoundD = Math.floor(hours);
     int hour = (int)hours;
     
@@ -30,9 +32,5 @@ public class TimePadding {//defining class
     int second = (int)secs;
     
     System.out.format("The time is %d:%02d:%02d \n",hour,minute,second);
-    
-    
-    
-    
     }
 }
