@@ -9,24 +9,16 @@ public class BoolaBoola {//create class
 
 public static void main(String[] args){//create main method
 
-
     //generated a random number, multiplied it by 2 so I get a value between 0 and 1.999
     //converted to an int so I just get either a 0 or 1
-    int num1 = (int)(Math.random()*2);
-    int num2 = (int)(Math.random()*2);
-    int num3 = (int)(Math.random()*2);
-    int num4 = (int)(Math.random()*2);
-    int num5 = (int)(Math.random()*2);
-    int num6 = (int)(Math.random()*2);
-
     //converted all six 1s or 0s to strings so I can use them in the Boolean
     //made the first a base number to compare other numbers to
-    String base = Integer.toString(num1);
-    String number1 = Integer.toString(num2);
-    String number2 = Integer.toString(num3);
-    String number3 = Integer.toString(num4);
-    String number4 = Integer.toString(num5);
-    String number5 = Integer.toString(num6);
+    String base = Integer.toString((int)(Math.random()*2));
+    String number1 = Integer.toString((int)(Math.random()*2));
+    String number2 = Integer.toString((int)(Math.random()*2));
+    String number3 = Integer.toString((int)(Math.random()*2));
+    String number4 = Integer.toString((int)(Math.random()*2));
+    String number5 = Integer.toString((int)(Math.random()*2));
 
     //set my Boolean variables
     Boolean one = false;
@@ -69,6 +61,7 @@ public static void main(String[] args){//create main method
     System.out.print(two);
     System.out.print(expression2);
     System.out.println(three);
+    
     }//end of main method
     
 }//end of class
