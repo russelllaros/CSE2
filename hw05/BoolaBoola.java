@@ -72,6 +72,7 @@ lol = new Scanner( System.in ); //creating myScanner variable so new scanner now
         } else {
         expression2 = "||";
             }
+    //Print the randomly assinged trues/falses and ||/&&
     System.out.print(one);
     System.out.print(expression1);
     System.out.print(two);
@@ -80,36 +81,30 @@ lol = new Scanner( System.in ); //creating myScanner variable so new scanner now
     
     System.out.print(" has the value true(t/T) or false(f/F)? ");
     String opt = lol.next().toUpperCase();
-    if(opt.length() == 1){ 
-            opt= opt+"";
-            
-        }else{
+    if(opt.length() == 1){ //if string entered is longer than one character
+            opt= opt+"";//keep opt cool
+    } else {// else print that it is not a correct input
         System.out.println("Nope. That doesn't work");
-    }
-    
-    boolean correct;
-    
+    }//end of else
+    boolean correct;//set variable for boolean that determines if correct or not
     if(one == false || two == false || three == false ) {
-        
-        if(opt.equals("F")) { //if they put in f or F they answer false
+        if(opt.equals("F")) { 
             correct = true; 
         }else{
             correct = false;
-        }
-    }else{
-        if(opt.equals("T")) { //if they put in the t or T they answer True
+        }//end of else
+    } else {
+        if(opt.equals("T")) {
             correct = true;
         } else {
             correct = false;
-        }
-    }
+        }//end of else and if
+    }//end of else
     if (correct) {
-        System.out.println("Correct"); //Boom the output Answer
-    }else{
+        System.out.println("Correct");
+    } else {
         System.out.println("Nope. That doesn't work");
-    }
+    }//end of if and else
     
- 
-    }
-    
-}
+    }//end of main method
+}//end of class
