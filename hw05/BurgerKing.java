@@ -58,18 +58,18 @@ public class BurgerKing {//create class
                 case "P"://if P tell them they got pepsi
                     System.out.print("You ordered a Pepsi\n");
                     break;
-                    case "C"://if C tell them they got coke
-                        System.out.print("You ordered a Coke\n");
-                        break;
-                    case "S"://if S tell them they got Sprite
-                        System.out.print("You ordered a Sprite\n");
-                        break;
-                    case "M"://if M tell them they got Mountain Dew
-                        System.out.print("You ordered a Mountain Dew\n");
-                        break;
-                    default://if something else give warning
-                        System.out.print("You did not enter in a proper character\n");
-                        break;
+                case "C"://if C tell them they got coke
+                    System.out.print("You ordered a Coke\n");
+                    break;
+                case "S"://if S tell them they got Sprite
+                    System.out.print("You ordered a Sprite\n");
+                    break;
+                case "M"://if M tell them they got Mountain Dew
+                    System.out.print("You ordered a Mountain Dew\n");
+                    break;
+                default://if something else give warning
+                    System.out.print("You did not enter in a proper character\n");
+                    break;
                 }//close switch
         }//close if
         else {
@@ -77,11 +77,6 @@ public class BurgerKing {//create class
         }//close else
     }//close for    
     
-        
-    
-        
-        
-        
         
     }//end of main method    
 }//end of class

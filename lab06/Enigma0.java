@@ -1,6 +1,6 @@
 ////////////
 //Russell Laros
-//CSE02-lab05-Enigma0
+//CSE02-lab06-Enigma0
 //debugging
 //10-1-14
 
@@ -14,7 +14,7 @@
 
 import java.util.Scanner;
 public class Enigma0{
-  public static void main(String arg []){
+  public static void main(String [] args){
     System.out.print("Enter an int- ");
     Scanner scan=new Scanner(System.in);
     int n;

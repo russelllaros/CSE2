@@ -16,16 +16,23 @@ public class Root { //adding class - public
     System.out.print("Enter number you wish to cube: ");//prompt for number of counts
     double x = myScanner.nextDouble();
     
-    double guess=x/3;
-    double guess2= (2*guess*guess*guess*x)/(3*guess*guess);
-    double guess3= (2*guess2*guess2*guess2*x)/(3*guess2*guess2);
-    double guess4= (2*guess3*guess3*guess3*x)/(3*guess3*guess3);
-    double guess5= (2*guess4*guess4*guess4*x)/(3*guess4*guess4);
-    double guess6= (2*guess5*guess5*guess5*x)/(3*guess5*guess5);
+    double guess;
+    double guess2;
+    double guess3;
+    double guess4;
+    double guess5;
+    double guess6;
+    double 
     
-    System.out.printf("The cube root is %f", guess6);
-    System.out.printf(": %f * %f * %f =", guess6);
-    System.out.printf("%f", guess6*guess6*guess6);
+    guess=(x/3);
+    guess2=(2*guess*guess*guess*x)/(3*guess*guess);
+    guess3=(2*guess2*guess2*guess2*x)/(3*guess2*guess2);
+    guess4=(2*guess3*guess3*guess3*x)/(3*guess3*guess3);
+    guess5=(2*guess4*guess4*guess4*x)/(3*guess4*guess4);
+    guess6=(2*guess5*guess5*guess5*x)/(3*guess5*guess5);
+    
+    System.out.printf("The cube root is" +guess6+ "is the cubed root for the number that was entered");
+    
     
     }
 }
