@@ -6,20 +6,21 @@ import java.util.Scanner;//import scanner
 public class Root {//create class
     public static void main (String[] rootshit) {//create method
         Scanner sc = new Scanner(System.in);//create scanner
-        double input;//create variable to be square rooted
+        //double input;//create variable to be square rooted
         double x = 0;
-        System.out.println("Enter a number greater than 0: ");//ask for input for number being squared
+        System.out.print("Enter a number greater than 0: ");//ask for input for number being squared
         if (! sc.hasNextDouble()) {//check if entered value is not a double
             System.out.println("Please enter a valid value");//print this
             return;//exit out
         }
         else {
-            input = sc.nextDouble();//otherwise assign entered value to x
-            if (input>0){
-                x = input;
-            }
-            else {
+            x = sc.nextDouble();//otherwise assign entered value to input
+            if (x<0){//check if input is a square-able number, if it isn't shut the program down
                 System.out.println("Please enter a valid value");
+                return;
+            }
+            if (x==0){
+                System.out.println("0");//if 0 is entered the square is 0
                 return;
             }
         }
