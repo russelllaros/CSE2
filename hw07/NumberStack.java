@@ -1,3 +1,8 @@
+//Russell Laros
+//CSE02
+//hw07
+//Number Stack- tackes input from user (0-9), then creates descending stacks of numbers starting from one and going to whatever the inputted number was
+
 import java.util.Scanner;//import scanner
 
 public class NumberStack {//create class
