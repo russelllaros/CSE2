@@ -17,4 +17,11 @@ public class Enigma2 {
     System.out.println(out);
   }
 }
-
+/*
+ * Error Report: I fixed it so fudge off
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
